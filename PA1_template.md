@@ -82,3 +82,4 @@ ggplot(avg_steps_by_day, aes(x = interval, y = avg_steps, color = day_type)) +
   facet_wrap(~day_type, ncol = 1) +
   labs(title = "Weekday vs Weekend Activity", x = "Interval", y = "Average Steps")
 
+
